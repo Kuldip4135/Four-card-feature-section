@@ -101,6 +101,8 @@ header h1 span {
   margin: 1rem 0 4rem;
 }
 
-.box-push {
-  transform: translateY(50%);
+@media screen and (min-width: 48rem) {
+  .box-push {
+    transform: translateY(50%);
+  }
 }
